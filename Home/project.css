@@ -342,6 +342,9 @@ main{
     margin-right: 20px;
     overflow: hidden;
 }
+.pro-img:hover{
+    scale: 1.1;
+}
 .image{
     height: 100%;
     width: 100%;
@@ -374,7 +377,7 @@ main{
 
 }
 #pro-5{
-    background-image: url(../images/portfolio.png);
+    background-image: url(../images/social_media_analyzer.jpg);
     background-position: center;
     background-size: cover;
 
@@ -453,20 +456,14 @@ main{
     background-position: center;
 }
 
-.react-img{
-    background-image: url(../images/skill-react.png);
+.mern-stack-img{
+    background-image: url(../images/mern-stack.png);
     background-size: cover;
     /* background-color: transparent; */
     background-position: center;
 }
-.express-img{
-    background-image: url(../images/skill-express.png);
-    background-size: cover;
-    /* background-color: transparent; */
-    background-position: center;
-}
-.mongodb-img{
-    background-image: url(../images/skill-mongodb.png);
+.next-js-img{
+    background-image: url(../images/skill-next-js.png);
     background-size: cover;
     /* background-color: transparent; */
     background-position: center;
