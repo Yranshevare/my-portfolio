@@ -352,8 +352,15 @@ main{
     transition-duration: 0.5s;
 }
 
+.pro-icon{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    height: 100%;   
+}
+
 #pro-1{
-    background-image: url(images/amazon.png);
+    background-image: url(images/YC-directory.png);
     background-position: center;
     background-size: cover;
 
@@ -464,6 +471,12 @@ main{
 }
 .next-js-img{
     background-image: url(images/skill-next-js.png);
+    background-size: cover;
+    /* background-color: transparent; */
+    background-position: center;
+}
+.django-img{
+    background-image: url(images/django.png);
     background-size: cover;
     /* background-color: transparent; */
     background-position: center;
